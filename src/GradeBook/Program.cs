@@ -14,8 +14,7 @@ namespace GradeBook
             book.AddGrade(90.5);
             book.AddGrade(77.5);
             book.ShowStatistics();
-            Console.WriteLine("Testar Github");
-          
+            
         }
     }
 }
