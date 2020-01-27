@@ -4,14 +4,14 @@
     "C:\\Users\\FLORENZI\\gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FLORENZI\\gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj": {
+    "C:\\Users\\FLORENZI\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FLORENZI\\gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
-        "projectName": "Gradebook.Tests",
-        "projectPath": "C:\\Users\\FLORENZI\\gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\FLORENZI\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectName": "GradeBook",
+        "projectPath": "C:\\Users\\FLORENZI\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "packagesPath": "C:\\Users\\FLORENZI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FLORENZI\\gradebook\\test\\Gradebook.Tests\\obj\\",
+        "outputPath": "C:\\Users\\FLORENZI\\gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FLORENZI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,62 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FLORENZI\\gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FLORENZI\\gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
+        "projectName": "Gradebook.Tests",
+        "projectPath": "C:\\Users\\FLORENZI\\gradebook\\test\\Gradebook.Tests\\Gradebook.Tests.csproj",
+        "packagesPath": "C:\\Users\\FLORENZI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FLORENZI\\gradebook\\test\\Gradebook.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FLORENZI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\FLORENZI\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+                "projectPath": "C:\\Users\\FLORENZI\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -48,7 +104,7 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[2.4.1, )"
             },
             "xunit.runner.visualstudio": {
               "target": "Package",
